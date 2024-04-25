@@ -1,0 +1,21 @@
+h1{
+    color:red;
+    font-family: roboto;
+	
+}
+p{
+    color:black ;
+}
+th{
+    color: blueviolet;
+}
+img {
+    max-width: 20%;
+    height: auto;
+  }
+  p {
+    text-align:left;
+  }
+  body {
+    background-color: rgb(53, 92, 105);
+  }
