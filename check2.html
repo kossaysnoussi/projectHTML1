@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./check2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <body>
+
+        <nav>
+            <div class="brand">
+                <h1 style="color: white;"></h1>
+            </div>
+            <ul class="nav-link">
+                <li>
+                    <a href="#football">football</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#books" class="dropbtn">books </a>
+
+                    <div class="dropdown-content">
+                        <a href="#chess">chess</a>
+                        <a href="#war">war</a>
+                        <a href="#history">history</a>
+
+
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#phone">phone</a>
+                </li>
+
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line1"></div>
+                <div class="line1"></div>
+            </div>
+            <img
+                src="data:image/png;base64,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">
+
+        </nav>
+        <img src="./boutique_ligne_910.webp" alt="Flowers" width="1470" height="600">
+        <a name="football"></a>
+        <h2>football</h2>
+        <div class="main">
+            <div class="card">
+                <img src="/messi.webp " alt="Denim Jeans" style="width:100%">
+                <h1>Messi's jersey</h1>
+                <p class="price">$32,99</p>
+                <p>Hereneer Football Jersey, children's boy's football jersey, NO 30 football clothing with socks and
+                    Short
+                </p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="./milan.webp" alt="Denim Jeans" style="width:100%">
+                <h1>Ac Milan</h1>
+                <p class="price">$75,31</p>
+                <p>Ac milan season 2022/2023 official home men's jersey </p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img src="./cr7.webp" alt="Denim Jeans" style="width:100%">
+                <h1>pogba's jersey </h1>
+                <p class="price">$32,00</p>
+                <p>Maillot Football No 7 Maillot Ensemble Hommes et Enfants Football Soccer Jersey Set Football Shirt à
+                    Domicile</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+
+
+        <h2>books<a name="books"></a></h2>
+
+        <a name="chess"></a>
+        <h3>chess</h3>
+        <div class="main">
+
+
+            <div class="card">
+                <img src="./fisher.webp" alt="Denim Jeans" style="width:100%">
+                <h1>bobby fisher</h1>
+                <p class="price">$9,85</p>
+                <p>Learn how to play chess the Bobby Fischer way with the fastest, most efficient, most enjoyable method
+                    ever devised. Whether you’re just learning the game or looking for more complex strategies, these
+                    practice problems and exercises will help you master the art of the checkmate. This book teaches
+                    through a programmed learning method: It asks you a question. If you give the right answer, it goes
+                    on to the next question. If you give the wrong answer, it explains why the answer is wrong and asks
+                    you to go back and try again. Thanks to the book’s unique formatting, you will work through the
+                    exercises on the right-hand side, with the correct answer hidden on the next page.</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="./capablanca.webp" alt="Denim Jeans" style="width:100%">
+                <h1>capablanca</h1>
+                <p class="price">$10,55</p>
+                <p>Play to Win! Jose Raul Capablanca was one of the greatest World Chess Champions of all time! While
+                    his playing style was straightforward he played with a blazing speed and strength that had never
+                    been seen before or since. In Chess Fundamentals Capablanca gives the reader a glimpse into his
+                    thinking patterns and strategy. Perfect for any playing level. The advice and exercises herein will
+                    make anyone and everyone a stronger player. All of our books are printed to order. This reduces
+                    waste and helps us keep prices low while greatly reducing our impact on the environment.</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="./hansen.webp" alt="Denim Jeans" style="width:100%">
+                <h1>Hansen</h1>
+                <p class="price">$17,99</p>
+                <p>Opening principles (page 13) Pawn structures (page 17) Gambit play (page 24) Opening traps (page 26)
+                    How do I decide which openings to choose (page 30) How to build an opening repertoire (page 32)
+                    Introduction to opening theory (page 34) The Open Games: 1.e4 e5, such as the Italian, Evans Gambit,
+                    King's Gambit, Scotch Game (page 39) The Semi-Open Game, such as the Sicilian Defence, the French
+                    Defence (page 84) The Closed Games, such as the Queen's Gambit (page 141) The Semi-Closed Games,
+                    such as the King's Indian, Nimzo-Indian (page 167) Flank Openings, such as the English Opening, 1.b3
+                    (page 207) Where do I go from here (page 231) And much, much more</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+        </div>
+        <a name="war"></a>
+        <h3>war</h3>
+        <div class="main">
+
+            <div class="card">
+                <img src="./pls.webp" alt="Denim Jeans" style="width:100%">
+                <h1>Palestine</h1>
+                <p class="price">$13,55</p>
+                <p>The twentieth century for Palestine and the Palestinians has been a century of denial: denial of
+                    statehood, denial of nationhood and denial of history. The Hundred Years War on Palestine is Rashid
+                    Khalidi's powerful response. Drawing on his family archives, he reclaims the fundamental right of
+                    any people: to narrate their history on their own terms. Beginning in the final days of the Ottoman
+                    Empire, Khalidi reveals nascent Palestinian nationalism and the broad recognition by the early
+                    Zionists of the colonial nature of their project. These ideas and their echoes defend Nakba - the
+                    Palestinian term for the establishment of the state of Israel - the cession of the West Bank and
+                    Gaza to Jordan and Egypt, the Six Day War and the occupation. Moving through these critical moments,
+                    Khalidi interweaves the voices of journalists, poets and resistance leaders with his own accounts as
+                    a child of a UN official and a resident of Beirut during the 1982 seige. The result is a profoundly
+                    moving account of a hundred-year-long war of occupation, dispossession and colonialisation.</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="./usa.webp" alt="Denim Jeans" style="width:100%">
+                <h1>The cold war</h1>
+                <p class="price">$17,00</p>
+                <p>We have entered a new Cold War. The contest between America and China is global and unbridgeable, and
+                    it encompasses all major instruments of statecraft - economic, political and military. It has its
+                    tinder box: Taiwan. And both protagonists are working hard to draw allies to their side from across
+                    the world. We stand at its beginning. But this Cold War is nothing like the conflict between the
+                    Soviet Union and the West which defined the second half of the twentieth century. We need new ideas
+                    to navigate its risks and avoid a globally devastating hot war. In this urgent and necessary book,
+                    Robin Niblett argues that only by looking back can we learn the lessons to guide us through this new
+                    reality: he goes through the ten ways in which the New Cold War is different and offers five rules
+                    for navigating its onset. How we manage this contest will determine not only whether there is still
+                    space for international cooperation to deal with our many global challenges, from the climate
+                    emergency to the technological revolution, but also who will lead the twenty-first century and,
+                    quite simply, the course of all our futures.</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+        <a name="history"></a>
+        <h3>history</h3>
+        <div class="main">
+
+            <div class="card">
+                <img src="./islam.webp" alt="Denim Jeans" style="width:100%">
+                <h1>The islam</h1>
+                <p class="price">$37,15</p>
+                <p>Despite Muhammad's exalted place in Islam, even today there is still surpisingly little actually
+                    known about this shadowy figure and the origins of the Qur'an because of an astounding lack of
+                    verifiable biographical material. Furthermore, most of the existing biographical traditions that can
+                    be used to substantiate the life of Muhammad date to nearly two centuries after his death, a time
+                    when a powerful, expansive, and idealized empire had become synonymous with his name and vision -
+                    thus resulting in an exaggerated and often artificial characterization of the prophetic figure
+                    coupled with many questionable interpretations of the holy book of Islam.</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="./hitler.webp" alt="Denim Jeans" style="width:100%">
+                <h1>Adolf Hitler</h1>
+                <p class="price">$19.50</p>
+                <p>The most notorious man in history, Adolf Hitler, is best known for having perpetrated crimes against
+                    humanity over the six-year course of World War II. His brutal extermination policies are responsible
+                    for the deaths of close to 30 million people he considered inferior, and added to that, the military
+                    casualties suffered by all parties, yields a grand total of approximately 60 million people dead by
+                    the end of the war. That number equates to 3% of the world’s population at the time. But, who was
+                    this man? What made him into the monster he became? Can his childhood explain the formation of such
+                    a brutal dictator?</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="./frnc.webp" alt="Denim Jeans" style="width:100%">
+                <h1>France</h1>
+                <p class="price">$12,92</p>
+                <p>The magnitude of an event is too apt to lie with its reporter, and the reporter often fails in his
+                    sense of historical proportion. The nearer he is to the event the more authority he has as a
+                    witness, but the less authority as a judge. It is time alone can establish the relation and harmony
+                    of things. This is notably the case with the greatest event of modern European history, the French
+                    Revolution, and the first task of the historian writing a century later, is to attempt to catch its
+                    perspective. To do this the simplest course will be to see how the Revolution has been interpreted
+                    from the moment of its close to the present day.</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+        <a name="phone"></a>
+        <h2>phone</h2>
+        <div class="main">
+            <div class="card">
+                <img src="./phone.webp" alt="Denim Jeans" style="width:100%">
+                <h1>SAMSUNG GALAXY S24</h1>
+                <p class="price">$899,00</p>
+                <p>SAMSUNG GALAXY S24, 5G Android Smartphone, 128 GB, 25W Fast Charger included [Amazon Exclusive],
+                    Smartphone available, Indigo, FR Version</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <div class="card">
+                <img src="./tlf.webp" alt="Denim Jeans" style="width:100%">
+                <h1>OnePlus 9</h1>
+                <p class="price">$1381,50</p>
+                <p>OnePlus 9 - Unlocked 5G smartphone - Photo Hasselblad - 8GB RAM + 128GB Storage - 2 year warranty -
+                    Astral Black [FR version]</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+
+        <div class="social-menu">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+
+            </ul>
+
+        </div>
+
+
+    </body>
+</body>
+
+</html>

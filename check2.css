@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    background: orangered;
+    min-height: 50px;
+    align-items: center;
+    }
+  
+  .brand{
+    font-size: 20px;
+    font-family: Nunito;
+    color: #f4f4f4;
+    letter-spacing: 3px;
+  }
+  
+  nav ul{
+    list-style: none;
+  }
+  .nav-link{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+  
+  nav li a{
+    text-decoration: none;
+   color: #f4f4f4;
+   text-transform: capitalize;
+    letter-spacing: 2px;
+    
+  }
+  
+  .hamburger{
+    display: none;
+  }
+  
+  
+   .line1{
+    width: 30px;
+    height: 3px;
+    margin-bottom:2px;
+    background-color: #f4f4f4;
+    
+  }
+  
+  .dropbtn {
+    background-color:Coral;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+     
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+      
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+   
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+    
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+  
+  
+  
+  @media screen and (max-width: 1020px){
+    .nav-link{
+      width: 60%;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 768px){
+    body{
+      overflow-x: hidden;
+    }
+    .nav-link{
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      background: orangered;
+      top: 1vh;
+      background-color: orangered;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      transform: translateX(100%);
+   
+      
+     
+      
+      }
+    .nav-link li{
+      opacity: 0;
+    }
+    
+    .hamburger{
+      display: block;
+    }
+  }
+  h2 {
+    font-weight:normal;
+    margin-bottom:5px;
+    border-bottom: 2px solid;
+    background: #EEE;
+    display: table;
+    color: orangered;
+  }
+  h3 {
+    color: orange;
+  }
+  h5{
+    color: brown;
+  }
+  h1{
+    color: chocolate;
+  }
+  .main{
+    display: flex;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  /social-menu/
+.social-menu{
+    margin-top:300px;
+}
+.social-menu ul{
+    text-align: center;
+}
+.social-menu ul li{
+    display: inline-block;
+    margin-left:-5px;
+}
+.social-menu ul li a{
+    color: #dca50e;
+    background-color:#9a9994;
+    font-size: 40px;
+
+    margin-left:5px;
+    margin-right:15px;
+    height:100px;
+    width: 100px;
+    display: inline-block;
+   line-height:100px;
+   border-radius: 50%;
+
+
+
+
+}
+.social-menu ul li a:hover{}
